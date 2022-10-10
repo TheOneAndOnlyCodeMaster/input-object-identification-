@@ -3,7 +3,10 @@
     width: 100%;
     float: top;
     margin-top: 0;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    box-shadow: 5px 4px 30px black;
+    border: 2px, ridge, darkorange;
+    padding: 2px;
 }
 body{
     font-family: 'Metamorphous', cursive;
@@ -15,7 +18,16 @@ body{
     margin: 20px;
     font-size: 18px;
 }
-canvas, .Kiwi, .foot{
+canvas, .Kiwi{
     box-shadow: 5px 4px 30px black;
     border: 2px, ridge, darkorange;
+    padding: 2px;
+    margin: 20px;
+    position: relative;
+}
+#objectInput{
+    width: 10%;
+    height: fit-content;
+    padding: 9px;
+    border-radius: 10px;
 }
